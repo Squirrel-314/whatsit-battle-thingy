@@ -1,0 +1,25 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: Nunito;
+}
+
+body {
+   background-image: url("Images/dirt.png");
+   background-size: cover;
+   height: 100px;
+}
+
+.battlefield {
+   width: 90vh;
+   height: 90vh;
+   margin: 25px auto;
+   box-shadow: 0 0 25px #000;
+}
+
+.field-block {
+   width: 12.5%;
+   height: 12.5%;
+   float: left;
+   box-shadow: 0 0 .5px;
+}
